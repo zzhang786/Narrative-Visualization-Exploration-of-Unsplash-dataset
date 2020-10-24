@@ -1,0 +1,369 @@
+#container{
+	text-align: center;
+}
+
+#intropage{
+	text-align: center;
+	/*background-color: #6495ED;*/
+	height: 1000px;
+	width: 100%;
+}
+#intropage #color{
+
+	padding-top: 50px;
+	background-color: #1e467d;
+	height: 40%
+}
+#title{
+	height: 60%;
+    font-size: 80px;
+    font-family: "Comic Sans MS";
+}
+input{
+	width: 300px;
+    font-size: 20px;
+    font-family: "Comic Sans MS";
+    color:  #aaa;
+    border: 3px solid black;
+}
+#member{
+	position: absolute;
+	bottom: 30%;
+	right: 5%;
+	width: 40%;
+    font-size: 25px;
+    font-family: "Comic Sans MS";
+}
+select {
+   background: transparent;
+   width: 15%;
+   padding: 5px;
+   font-size: 20px;
+   font-family: "Comic Sans MS";
+   border: 2px solid #ccc;
+   border-radius: 10px;
+   overflow:auto;
+   text-align: center;
+}
+option{
+	border: 1px solid black;
+}
+
+.center{
+	width: 100%;
+	text-align: center;
+}
+.page{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 5%;
+	margin-bottom: 10%;/*
+	border-style: outset;
+	border-color: orange;
+	border-width: 10px;*/
+	height: 1000px;
+}
+.picb{
+	height: 40%;
+}
+
+.pic{
+	padding-top: 5%;
+	max-width: 60%;
+  	max-height: 80%;
+}
+
+.sel_box{
+	height: 60%;
+}
+
+.cform{
+	position: relative;
+	top: 20%;
+}
+span{
+	font-size: 25px;
+    font-family: "Comic Sans MS";
+
+}
+.sec1 {
+	padding-left: 3%;
+    width: 30%;
+    float:left;
+}
+.sec1 select{
+	width: 50%;
+}
+
+
+.text{
+	height: 40%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.text .pic {
+	max-width: 60%;
+  	max-height: 35%;
+}
+.top{
+	padding-top: 3%;
+	height: 60%;
+}
+.full{
+	height:100%;
+	width:100%;
+}
+#mapleft{
+	width:30%;
+	height: 1000px;
+	float:left;
+}
+#mapleft .text{
+	padding-bottom: 20%;
+}
+#mapright{
+	height: 1000px;
+	width: 70%;/*
+	padding-top: 10%;
+	padding-bottom: 10%;
+	padding-right: 0px；*/
+	float:right;
+}
+#mapright b{
+	text-align: center;
+}
+#map{
+	height: 80%;
+	width: 90%;
+	text-align: center;
+}
+.left{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	width: 30%;
+	float: left;
+}
+.right{
+	padding-right: 10%;
+	height: auto;
+	width: 60%;
+	float: left;
+}
+
+
+.bottom{
+	margin-bottom: 3%;
+	width: 100%;
+	float: left;
+}
+.bt{
+	width:100%;
+	height: :5%;
+}
+button{/*
+	padding-left: 45%;
+	padding-left: 45%;*/
+	width: 100px;
+	font-size: 20px;
+    font-family: "Comic Sans MS";/*
+    background: none;
+	color: hsla(15, 100%, 89%, 1);
+	display: block;
+	cursor: pointer;
+	background: #1e467d;*/
+}
+.text_bar{
+	height: 10%;
+    font-size: 25px;
+    font-family: "Comic Sans MS";
+}
+.img{
+	max-width:100%;
+	max-height:100%;
+	width:auto;
+	height: auto;
+	font-size: 20px;
+    font-family: "Comic Sans MS";
+}
+
+#picpreb{
+	height: 90%;
+	width: 80%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+#foot{
+	padding-top: 50px;
+	background-color: #6495ED;
+	height: 200px;
+	width: 100%;
+}
+#foot div{
+	padding-left: 10%;
+	text-align: left;
+	font-size: 30px;
+}
+ul{
+	padding-top: 30px;
+	padding-left: 15%;
+	text-align: left;
+	font-size: 20px;
+}
+.t_only{
+	margin: auto;
+	width:100%;
+	height: 100%;
+}
+.t_only img{
+	padding-top: 10%;
+	max-width: 50%;
+}
+#ldtext{
+	padding-left: 20%;
+	padding-top: 10%;
+	width: 60%;
+	font-size: 35px;
+    font-family: "Comic Sans MS";
+}
+#box{
+	padding-top: 60%;
+	height: 50%;
+	padding-left: 10%;
+	padding-right: 5%;
+	height: 50%;
+}
+#box div{
+
+	width: 100%;
+	float:left;
+	font-size: 20px;
+    font-family: "Comic Sans MS";
+}
+#box input{
+	padding-left: 20%; 
+	width:10%;
+	float:left;
+}
+#box1{
+	max-width: 50%;
+	float:left;
+}
+#box2{
+	max-width: 50%;
+	float:right;
+
+}
+.full #corrleft{
+	height:100%;
+	width: 30%;
+	float:left;
+}
+.full #corrright{
+	height: 100%;
+	float:left;
+	width: 70%;
+	float:right;
+}
+#corrright .text_bar{
+	padding-top: 5%;
+	height:5%;
+}
+#corrright #corr{
+	padding-bottom: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	height: 85%;
+
+}
+#box .bt{
+	padding-top: 10%;
+}
+
+#submit-logged-out {<!--from www.java2s.com-->
+   background: #000;
+   color: #fff;
+   font-size: 5em;
+   left: 50px;
+   padding: 40px;
+   position: relative;
+   top: 20px;
+   font-family: "Comic Sans MS";
+}
+.popout {
+   animation: popout 1s ease;
+   -webkit-animation: popout 1s ease;
+}
+@keyframes popout {
+   from{transform:scale(0)}
+   80%{transform:scale(1.2)}
+   to{transform:scale(1)}
+}
+@-webkit-keyframes popout {
+   from{-webkit-transform:scale(0)}
+   80%{-webkit-transform:scale(1.2)}
+   to{-webkit-transform:scale(1)}
+}
+iframe{
+	border: 0;
+	width: 800px;
+	height: 400px;
+	padding-top: 5%;/*
+	max-width:100%;
+	max-height:100%;*/
+}
+a {
+    font-family: "Comic Sans MS";
+    color: gray; 
+  
+}
+#cat .text_bar{
+	padding-top: 5%;
+   	font-size: 35px;
+
+}
+
+#intro{
+	padding-left: 20%;
+   	font-family: "Comic Sans MS";
+   	font-size: 35px;
+	padding-top: 10%;
+	width:60%;
+}
+
+.ques{
+	padding-top: 25%;
+	width: 100%;
+	font-size: 40px;
+    font-family: "Comic Sans MS";
+}
+
+.ques b{
+	width:60%;
+}
+
+#small{
+	padding-top:15%;
+	width:60%;
+}
+#end div{
+	padding-top: 15%;
+	font-size: 35px;
+    font-family: "Comic Sans MS";
+}
+/*.gifb{
+	width: 400px;
+
+	max-width:100%;
+	max-height:100%;
+}*/
+.gifs{
+	width: 300px;
+	height: 200px;
+	max-width:none;
+	max-height:none;
+}
+#RGB{
+	padding-left: 10%;
+	padding-right: 5%;
+	padding-bottom: 5%;
+}
